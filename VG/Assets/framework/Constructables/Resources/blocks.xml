@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BlockList>
+	<Blocks>
+    <PerfectBlock Name="Block">
+      <MaxHP>100</MaxHP>
+      <Mass>10</Mass>
+      <Armor>5</Armor>
+      <BlockType>0</BlockType>
+    </PerfectBlock>
+		<PerfectBlock Name="Slope">
+      <MaxHP>50</MaxHP>
+      <Mass>5</Mass>
+			<Armor>10</Armor>
+      <BlockType>1</BlockType>
+		</PerfectBlock>
+		<PerfectBlock Name="Tri">
+      <MaxHP>25</MaxHP>
+      <Mass>2.5</Mass>
+			<Armor>15</Armor>
+      <BlockType>2</BlockType>
+		</PerfectBlock>
+    <PerfectBlock Name="Inv. Tri">
+      <MaxHP>75</MaxHP>
+      <Mass>7.5</Mass>
+      <Armor>4</Armor>
+      <BlockType>3</BlockType>
+    </PerfectBlock>
+
+    <SubOBlock Name = "TurretRing5">
+      <ObjectName>TRing5x5</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>500</MaxHP>
+      <Mass>100</Mass>
+      <Armor>15</Armor>
+    </SubOBlock>
+    <SubOBlock Name = "TurretRing7">
+      <ObjectName>TRing7x7</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>1000</MaxHP>
+      <Mass>100</Mass>
+      <Armor>15</Armor>
+    </SubOBlock>
+
+    <GOBlock Name ="Medium Cannon">
+      <ObjectName>3x3x6 Cannon</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>500</MaxHP>
+      <Mass>100</Mass>
+      <Armor>15</Armor>
+    </GOBlock>
+
+    <Wheel Name ="Wheel5 Steer">
+      <ObjectName>Wheel 5x5 Steer</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>500</MaxHP>
+      <Mass>10</Mass>
+      <Armor>5</Armor>
+    </Wheel>
+    <Wheel Name ="Wheel5">
+      <ObjectName>Wheel 5x5</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>200</MaxHP>
+      <Mass>10</Mass>
+      <Armor>5</Armor>
+    </Wheel>
+
+    <Wheel Name = "Track10">
+      <ObjectName>Tread10</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>1500</MaxHP>
+      <Mass>100</Mass>
+      <Armor>0</Armor>
+    </Wheel>
+
+    <GOBlock Name ="Seat1">
+      <ObjectName>Control Seat</ObjectName>
+      <Scaleable>false</Scaleable>
+      <MaxHP>200</MaxHP>
+      <Mass>14</Mass>
+      <Armor>3</Armor>
+    </GOBlock>
+
+    <GOBlock Name ="Tiny Engine">
+      <ObjectName>Tiny Engine</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>125</MaxHP>
+      <Mass>75</Mass>
+      <Armor>0</Armor>
+    </GOBlock>
+
+    <GOBlock Name ="Fuel Tank 2x2">
+      <ObjectName>Fueltank2x2</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>100</MaxHP>
+      <Mass>50</Mass>
+      <Armor>0</Armor>
+    </GOBlock>
+
+    <GOBlock Name = "Heli9">
+      <ObjectName>Heliblade9</ObjectName>
+      <Scaleable>true</Scaleable>
+      <MaxHP>500</MaxHP>
+      <Mass>50</Mass>
+      <Armor>0</Armor>
+    </GOBlock>
+	</Blocks>
+</BlockList>

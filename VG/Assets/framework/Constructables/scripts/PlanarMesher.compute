@@ -1,0 +1,12 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Enmesh
+
+int chunkSize;
+
+
+
+[numthreads(10,10,10)]
+void Enmesh (uint3 id : SV_DispatchThreadID)
+{
+
+}

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4473653538767429752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4473653538767429753}
+  - component: {fileID: 4473653538767429754}
+  - component: {fileID: -8005662875722065117}
+  - component: {fileID: 5684602366382412240}
+  m_Layer: 6
+  m_Name: '[Vehicle] SpawnedVehicle'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4473653538767429753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473653538767429752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7622175, y: 0.15951729, z: -1.5829554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4473653538767429754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473653538767429752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ce24dfd132b24409f02cd08a2f8a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicleName: NewVehicle
+  IsDebris: 0
+  IsTurret: 0
+  targetFwd: {x: 0, y: 0, z: 0}
+  targetRot: {x: 0, y: 0, z: 0}
+  target: {x: 0, y: 0, z: 0}
+  throttle: 0
+  PIDr:
+    K: 3
+    Ki: 0.05
+    Kd: 1
+    resetLimit: 1
+  PIDp:
+    K: 3
+    Ki: 0.05
+    Kd: 1
+    resetLimit: 1
+  PIDy:
+    K: 3
+    Ki: 0.05
+    Kd: 1
+    resetLimit: 1
+  levitating: 0
+  masterVehicle: {fileID: 0}
+  parentVehicle: {fileID: 0}
+  Subvehicles: []
+  IsSubvehicle: 0
+  attachmentPoints: []
+  chunkParent: {fileID: 0}
+  rb: {fileID: 5684602366382412240}
+  vehicleScale: 0.25
+  chunkSize: 20
+--- !u!114 &-8005662875722065117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473653538767429752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b74f06bed23119a4db68c947b77203f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &5684602366382412240
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473653538767429752}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
