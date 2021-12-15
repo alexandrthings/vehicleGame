@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Characters.ASInput;
-using ASTankGame.Vehicles.BlockBehaviors;
+using VehicleBase.Characters.ASInput;
+using VehicleBase.Vehicles.BlockBehaviors;
 using UnityEngine;
 
-namespace ASTankGame.Characters.ASInput
+namespace VehicleBase.Characters.ASInput
 {
     public class PlayerInputModule : InputModule
     {

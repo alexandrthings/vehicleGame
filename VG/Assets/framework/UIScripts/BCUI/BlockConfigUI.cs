@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Reflection;
-using ASTankGame.Vehicles.BlockBehaviors;
-using ASTankGame.Vehicles.XML;
+using VehicleBase.Vehicles.BlockBehaviors;
+using VehicleBase.Vehicles.XML;
 using TMPro;
 using UnityEngine;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     public class BlockConfigUI : Menu
     {

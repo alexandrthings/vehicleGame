@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// interactable base
 /// </summary>
-namespace ASTankGame.Interaction
+namespace VehicleBase.Interaction
 {
     public interface IInteractable
     {

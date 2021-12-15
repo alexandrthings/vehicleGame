@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
-using ASTankGame.UI;
+using VehicleBase.UI;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace ASTankGame.Camera
+namespace VehicleBase.Camera
 {
     public class ThirdPersonCamera : MonoBehaviour
     {

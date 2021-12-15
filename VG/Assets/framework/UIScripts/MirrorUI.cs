@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Vehicles.Building;
+using VehicleBase.Vehicles.Building;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     public class MirrorUI : Menu
     {

@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using ASTankGame.Characters;
-using ASTankGame.Vehicles;
-using ASTankGame.Vehicles.Blocks.Management;
+using VehicleBase.Characters;
+using VehicleBase.Vehicles;
+using VehicleBase.Vehicles.Blocks.Management;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     public class NewVehicleUI : Menu
     {

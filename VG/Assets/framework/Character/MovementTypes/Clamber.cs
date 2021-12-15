@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Characters;
-using ASTankGame.Characters.Movement;
+using VehicleBase.Characters;
+using VehicleBase.Characters.Movement;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Movement
+namespace VehicleBase.Characters.Movement
 {
     public class Clamber : MoveType
     {

@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Damage;
-using ASTankGame.Utility;
+using VehicleBase.Damage;
+using VehicleBase.Utility;
 using UnityEngine;
 
-namespace ASTankGame.Damage.Animation.Events
+namespace VehicleBase.Damage.Animation.Events
 {
     public class DamageTrigger : MonoBehaviour
     {

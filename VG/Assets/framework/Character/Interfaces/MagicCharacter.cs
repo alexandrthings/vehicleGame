@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Magic
+namespace VehicleBase.Characters.Magic
 {
     public interface MagicCharacter
     {

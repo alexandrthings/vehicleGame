@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Movement
+namespace VehicleBase.Characters.Movement
 {
     public class Dodge : MoveType
     {

@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
-using ASTankGame.Characters;
+using VehicleBase.Characters;
 using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering.UI;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     // i guess its a god object for all menus now
     public class UIManager : MonoBehaviour

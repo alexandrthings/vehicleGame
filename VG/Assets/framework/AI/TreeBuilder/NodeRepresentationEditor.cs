@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace ASTankGame.Characters.AI.TreeBuilder
+namespace VehicleBase.Characters.AI.TreeBuilder
 {
     [CustomEditor( typeof(NodeRepresentation))]
     public class NodeRepresentationEditor : Editor

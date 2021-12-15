@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     public class FGUIScript : MonoBehaviour
     {

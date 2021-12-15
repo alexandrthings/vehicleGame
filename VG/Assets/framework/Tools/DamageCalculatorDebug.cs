@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Damage;
+using VehicleBase.Damage;
 using UnityEngine;
 
 public class DamageCalculatorDebug : MonoBehaviour

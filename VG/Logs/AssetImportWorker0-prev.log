@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/MISSION CRITICAL/PRESENT/vehiclegame
+D:/MISSION CRITICAL/PRESENT/vehicleGame/VG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55293
-Successfully changed project path to: D:/MISSION CRITICAL/PRESENT/vehiclegame
-D:/MISSION CRITICAL/PRESENT/vehiclegame
+54747
+Successfully changed project path to: D:/MISSION CRITICAL/PRESENT/vehicleGame/VG
+D:/MISSION CRITICAL/PRESENT/vehicleGame/VG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 114.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 144.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/MISSION CRITICAL/PRESENT/vehiclegame/Assets
+[Subsystems] Discovering subsystems at path D:/MISSION CRITICAL/PRESENT/vehicleGame/VG/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -38,152 +38,266 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005179 seconds.
+Registered in 0.002575 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 160.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 122.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
+- Completed reload, in  1.483 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003024 seconds.
+Registered in 0.002463 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 165.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 122.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.764 seconds
+- Completed reload, in  1.289 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4300 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 173.1 MB.
 System memory in use after: 173.3 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4761.
-Total: 3.515900 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.431300 ms MarkObjects: 2.505300 ms  DeleteObjects: 0.124300 ms)
+Total: 5.009600 ms (FindLiveObjects: 0.446800 ms CreateObjectMapping: 0.193300 ms MarkObjects: 4.139800 ms  DeleteObjects: 0.227900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/framework/Character/Character Class
-  artifactKey: Guid(f0a1d069a947bef44aec3940cf19a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Character Class using Guid(f0a1d069a947bef44aec3940cf19a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a5e66655fc343ff30989a6b3bb9e9d') in 0.016310 seconds 
+  path: Assets/framework/Constructables/scripts/GOBlock scripts/TurretRing.cs
+  artifactKey: Guid(dbde14ebab8b8ff42bb7682664db9f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Constructables/scripts/GOBlock scripts/TurretRing.cs using Guid(dbde14ebab8b8ff42bb7682664db9f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08693caf139136a2b4ad3b1f25ab61f') in 0.034619 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4764.
+Total: 3.850600 ms (FindLiveObjects: 0.650700 ms CreateObjectMapping: 0.419700 ms MarkObjects: 2.751100 ms  DeleteObjects: 0.028000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.541 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 163.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4767.
+Total: 5.150600 ms (FindLiveObjects: 0.446900 ms CreateObjectMapping: 0.260000 ms MarkObjects: 4.424300 ms  DeleteObjects: 0.017600 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/framework/Character/Character Class/Character.cs
-  artifactKey: Guid(a7c262b26ca199d49a1e956d9ad130a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Character Class/Character.cs using Guid(a7c262b26ca199d49a1e956d9ad130a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070cddb2d3b96c12ce049ee829544372') in 0.027264 seconds 
+  Time since last request: 404.339956 seconds.
+  path: Assets/framework/Constructables/scripts/GOBlock scripts/FuelTank.cs
+  artifactKey: Guid(cb4314b536e77ec4ea2b62870cb5ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Constructables/scripts/GOBlock scripts/FuelTank.cs using Guid(cb4314b536e77ec4ea2b62870cb5ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a903b6d467ad45995ada4a3b3f81ef') in 0.012146 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002547 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4770.
+Total: 3.598100 ms (FindLiveObjects: 0.769500 ms CreateObjectMapping: 0.507000 ms MarkObjects: 2.301800 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4773.
+Total: 3.410700 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.215100 ms MarkObjects: 2.834400 ms  DeleteObjects: 0.020900 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 3.476803 seconds.
-  path: Assets/framework/Character/Abilities
-  artifactKey: Guid(62856fcea492e594f8500a04f47c8c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Abilities using Guid(62856fcea492e594f8500a04f47c8c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8980fb4fe6b6738689527cdd89d6a5eb') in 0.008572 seconds 
+  Time since last request: 331.528999 seconds.
+  path: Assets/framework/Constructables/scripts/GOBlock scripts/ILinkableBlock.cs
+  artifactKey: Guid(a5c90ee347004d146837790ba6e418ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Constructables/scripts/GOBlock scripts/ILinkableBlock.cs using Guid(a5c90ee347004d146837790ba6e418ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dc83390ae5100dfc24f9de558ba86d') in 0.020484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.653755 seconds.
-  path: Assets/framework/Character/Abilities/AbilityManager.cs
-  artifactKey: Guid(cc3b23d9ab9cd184a9aeaef95496b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Abilities/AbilityManager.cs using Guid(cc3b23d9ab9cd184a9aeaef95496b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313188628e7777c6210d98338f5de1b6') in 0.015460 seconds 
+  Time since last request: 0.456143 seconds.
+  path: Assets/framework/Constructables/scripts/GOBlock scripts/Seat.cs
+  artifactKey: Guid(fdf1deb16e186d647bfe1e6cf9214900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Constructables/scripts/GOBlock scripts/Seat.cs using Guid(fdf1deb16e186d647bfe1e6cf9214900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4950dd788bd5817922cb93c88e43fa65') in 0.012421 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.494979 seconds.
-  path: Assets/framework/Character/Events
-  artifactKey: Guid(4da488d13d825d546a663f7948090ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Events using Guid(4da488d13d825d546a663f7948090ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf281bf860cdbde3e0d6d3accdda3ed8') in 0.008915 seconds 
+  Time since last request: 0.694394 seconds.
+  path: Assets/framework/Constructables/scripts/GOBlock scripts/SubObjectComponent.cs
+  artifactKey: Guid(e9032e2ebd0140b4cb4829a361a7407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Constructables/scripts/GOBlock scripts/SubObjectComponent.cs using Guid(e9032e2ebd0140b4cb4829a361a7407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcf8f2212bf056a6d6a8eabc5464783') in 0.016446 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4776.
+Total: 6.185000 ms (FindLiveObjects: 0.589400 ms CreateObjectMapping: 0.326500 ms MarkObjects: 5.208000 ms  DeleteObjects: 0.058300 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 1.193126 seconds.
-  path: Assets/framework/Character/Events/AnimationEventHandler.cs
-  artifactKey: Guid(d3dc81748ca128641ac4d5f129053117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Events/AnimationEventHandler.cs using Guid(d3dc81748ca128641ac4d5f129053117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca927f689d8c2f1cab87ab8aadf1219') in 0.011524 seconds 
+  Time since last request: 523.002616 seconds.
+  path: Assets/framework/VehicleBase
+  artifactKey: Guid(8177a8c34a7ecfc448a7d9c03fd5b088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/VehicleBase using Guid(8177a8c34a7ecfc448a7d9c03fd5b088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd938a7048794fef609819134a9e47b') in 0.013454 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4779.
+Total: 4.965400 ms (FindLiveObjects: 0.487200 ms CreateObjectMapping: 0.203900 ms MarkObjects: 4.239300 ms  DeleteObjects: 0.033300 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 4.603768 seconds.
-  path: Assets/framework/Character/Input/PlayerInputModule.cs
-  artifactKey: Guid(9e40062c6d11013499cf8a995f1bba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Input/PlayerInputModule.cs using Guid(9e40062c6d11013499cf8a995f1bba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4663c13296b1cbf5b2525dc906d700cd') in 0.006524 seconds 
+  Time since last request: 13.201261 seconds.
+  path: Assets/framework/Damage/DamageTrigger.cs
+  artifactKey: Guid(62bdc45367ef2c5488161d464d922c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Damage/DamageTrigger.cs using Guid(62bdc45367ef2c5488161d464d922c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7238f112e65735f554d741f9339ce968') in 0.017922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.806934 seconds.
-  path: Assets/framework/Character/Input/InputModule.cs
-  artifactKey: Guid(4a8f5d4623a33cd4c9b071e8eb57498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Input/InputModule.cs using Guid(4a8f5d4623a33cd4c9b071e8eb57498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328d80e95ba28ea49b29c8d634472e2') in 0.020647 seconds 
+  Time since last request: 3.827839 seconds.
+  path: Assets/framework/Damage/DestructibleObject.cs
+  artifactKey: Guid(fa58ff6cd78f3484db2de58a1534cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Damage/DestructibleObject.cs using Guid(fa58ff6cd78f3484db2de58a1534cc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea2256542ac5a46a10f266fd692e6d') in 0.011064 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.089269 seconds.
-  path: Assets/framework/Character/Interfaces
-  artifactKey: Guid(ddf99252c305c204abcc67c1e1b45c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Interfaces using Guid(ddf99252c305c204abcc67c1e1b45c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8686de96cf6dd483f14fdc52697438') in 0.010491 seconds 
+  Time since last request: 0.406546 seconds.
+  path: Assets/framework/Damage/ProjectileThrower.cs
+  artifactKey: Guid(5a164ede37ab32e49aa9af2beda19dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Damage/ProjectileThrower.cs using Guid(5a164ede37ab32e49aa9af2beda19dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51607022a4044885d334116786a619f4') in 0.010948 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.879375 seconds.
-  path: Assets/framework/Character/Interfaces/MagicCharacter.cs
-  artifactKey: Guid(294bfc8d19d35a34ba22cca7d62124ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/Interfaces/MagicCharacter.cs using Guid(294bfc8d19d35a34ba22cca7d62124ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26113324f71f293f6068d1457e911fe') in 0.012115 seconds 
+  Time since last request: 18.305708 seconds.
+  path: Assets/framework/Damage/Interfaces/IDamageableObject.cs
+  artifactKey: Guid(d3dcb55fd41a83e4b9b7a82e57dfd188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/Damage/Interfaces/IDamageableObject.cs using Guid(d3dcb55fd41a83e4b9b7a82e57dfd188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de2c9c1335fda22626aa68abc9ed638') in 0.008216 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.397165 seconds.
-  path: Assets/framework/Character/MovementTypes
-  artifactKey: Guid(aca7f1d29c4c1bb45a3f9c80ec54a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes using Guid(aca7f1d29c4c1bb45a3f9c80ec54a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83609dee168254eed563ac23ade4252e') in 0.008966 seconds 
+  Time since last request: 11.840357 seconds.
+  path: Assets/framework/AI
+  artifactKey: Guid(a330b98ff4e9afe45a4d39ebdb4cd343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/AI using Guid(a330b98ff4e9afe45a4d39ebdb4cd343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8ab62232b01beafeb86308110c7a9d') in 0.018262 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.115561 seconds.
-  path: Assets/framework/Character/MovementTypes/Airborne.cs
-  artifactKey: Guid(b3fbf1b1f05f7fc45a73818b9042fd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/Airborne.cs using Guid(b3fbf1b1f05f7fc45a73818b9042fd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4fd2ada61542e2f5aa9e8db604a0cc') in 0.007463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.858277 seconds.
-  path: Assets/framework/Character/MovementTypes/Attack.cs
-  artifactKey: Guid(122d90c89db915f418ab30d35f453103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/Attack.cs using Guid(122d90c89db915f418ab30d35f453103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f39bf6dec19734e7cae8a3d711fb6e9') in 0.007827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.278307 seconds.
-  path: Assets/framework/Character/MovementTypes/Clamber.cs
-  artifactKey: Guid(45fca4580ef316d449a8e4be2b077d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/Clamber.cs using Guid(45fca4580ef316d449a8e4be2b077d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a47e81b13d19001cac489783d1c17a4') in 0.009266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.192274 seconds.
-  path: Assets/framework/Character/MovementTypes/Dodge.cs
-  artifactKey: Guid(bd991a14300aba9418ecb5d45d65cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/Dodge.cs using Guid(bd991a14300aba9418ecb5d45d65cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1e953826b8cb8c65a8000b20f47ba8') in 0.006443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.186567 seconds.
-  path: Assets/framework/Character/MovementTypes/MoveType.cs
-  artifactKey: Guid(4aff8b860392c664d8e8982ecfe08522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/MoveType.cs using Guid(4aff8b860392c664d8e8982ecfe08522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cf433aca41a5b0f22cb5f95c6d20a5') in 0.008534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.198077 seconds.
-  path: Assets/framework/Character/MovementTypes/Sit.cs
-  artifactKey: Guid(4ca4585f66aa49149bbf9d955c0c60d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/Sit.cs using Guid(4ca4585f66aa49149bbf9d955c0c60d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf2cd00e4fb5944a9d6c4aac6e0504d') in 0.006770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.193553 seconds.
-  path: Assets/framework/Character/MovementTypes/Walk.cs
-  artifactKey: Guid(06de9f52ad0dafd4aba8e4095385faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/framework/Character/MovementTypes/Walk.cs using Guid(06de9f52ad0dafd4aba8e4095385faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b71932687a19cd7813cf04b52f358ec') in 0.008009 seconds 
+  Time since last request: 63.112675 seconds.
+  path: Assets/framework/UIScripts/NewVehicleUI.cs
+  artifactKey: Guid(ac61c73383185604ab00970f9fa0093a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/framework/UIScripts/NewVehicleUI.cs using Guid(ac61c73383185604ab00970f9fa0093a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494a3623a7ef4b851c8b46db8ff7833c') in 0.011820 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

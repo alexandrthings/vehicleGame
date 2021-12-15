@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Cinemachine.Utility;
-using ASTankGame.Camera;
-using ASTankGame.Characters;
-using ASTankGame.Characters.Magic;
-using ASTankGame.Characters.Movement;
-using ASTankGame.UI;
-using ASTankGame.Vehicles.BlockBehaviors;
-using ASTankGame.Vehicles.Building;
+using VehicleBase.Camera;
+using VehicleBase.Characters;
+using VehicleBase.Characters.Magic;
+using VehicleBase.Characters.Movement;
+using VehicleBase.UI;
+using VehicleBase.Vehicles.BlockBehaviors;
+using VehicleBase.Vehicles.Building;
 using UnityEngine;
 
-namespace ASTankGame.Characters
+namespace VehicleBase.Characters
 {
     public class PlayerCharacter : Character
     {

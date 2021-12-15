@@ -2,18 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using ASTankGame.Characters.Animation;
-using ASTankGame.Characters.Movement;
-using ASTankGame.Damage;
+using VehicleBase.Characters.Animation;
+using VehicleBase.Characters.Movement;
+using VehicleBase.Damage;
 using DitzelGames.FastIK;
-using ASTankGame.Vehicles.BlockBehaviors;
+using VehicleBase.Vehicles.BlockBehaviors;
 using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using Debug = UnityEngine.Debug;
 
-namespace ASTankGame.Characters
+namespace VehicleBase.Characters
 {
     public class Character : MonoBehaviour, IDamageableObject
     {

@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Damage;
+using VehicleBase.Damage;
 using UnityEngine;
 
-namespace ASTankGame.Damage.Objects
+namespace VehicleBase.Damage.Objects
 {
     public class DestructibleObject : MonoBehaviour, IDamageableObject
     {

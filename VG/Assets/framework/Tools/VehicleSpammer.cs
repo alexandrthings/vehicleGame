@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Vehicles.XML;
+using VehicleBase.Vehicles.XML;
 using UnityEngine;
 
 public class VehicleSpammer : MonoBehaviour

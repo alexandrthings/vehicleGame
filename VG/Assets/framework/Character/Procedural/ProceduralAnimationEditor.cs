@@ -1,8 +1,8 @@
 #if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Characters.Animation;
-using ASTankGame.Characters.Animation.Generation;
+using VehicleBase.Characters.Animation;
+using VehicleBase.Characters.Animation.Generation;
 using UnityEngine;
 using UnityEditor;
 

@@ -2,10 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
-using ASTankGame.Characters.AI.Nodes;
+using VehicleBase.Characters.AI.Nodes;
 using UnityEngine;
 
-namespace ASTankGame.Characters.AI.TreeBuilder
+namespace VehicleBase.Characters.AI.TreeBuilder
 {
     [ExecuteAlways]
     public class NodeCollector : MonoBehaviour

@@ -1,11 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Damage.Animation.Events;
+using VehicleBase.Damage.Animation.Events;
 using Unity.Mathematics;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Animation.Events
+namespace VehicleBase.Characters.Animation.Events
 {
     public class AnimationEventHandler : MonoBehaviour
     {

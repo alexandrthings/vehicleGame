@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.Damage.Projectiles
+namespace VehicleBase.Damage.Projectiles
 {
     public class ProjectileThrower : MonoBehaviour
     {

@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using MiscUtil.Collections.Extensions;
-using ASTankGame.Vehicles;
-using ASTankGame.Vehicles.BlockBehaviors;
+using VehicleBase.Vehicles;
+using VehicleBase.Vehicles.BlockBehaviors;
 using TMPro;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     /// <summary>
     /// actively updated UI like hp, fuel, electricity of vehicle, etc.

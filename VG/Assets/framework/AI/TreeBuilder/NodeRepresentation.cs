@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.Characters.AI.TreeBuilder
+namespace VehicleBase.Characters.AI.TreeBuilder
 {
     public class NodeRepresentation : StateMachineBehaviour
     {

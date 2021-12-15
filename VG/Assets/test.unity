@@ -2534,7 +2534,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7781872, y: 1}
+    m_SensorSize: {x: 1.7775394, y: 1}
   m_Transitions:
     m_BlendHint: 1
     m_InheritPosition: 0
@@ -4353,9 +4353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0729af27a3b649e4a824e5d310f62f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehiclename: test2
+  vehiclename: testvehicle
   spacing: 10
-  rows: 20
+  rows: 10
   columns: 10
 --- !u!4 &1211386737
 Transform:
@@ -4862,7 +4862,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7781872, y: 1}
+    m_SensorSize: {x: 1.7775394, y: 1}
   m_Transitions:
     m_BlendHint: 1
     m_InheritPosition: 0

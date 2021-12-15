@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.Design;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Movement
+namespace VehicleBase.Characters.Movement
 {
     public class Airborne : MoveType
     {

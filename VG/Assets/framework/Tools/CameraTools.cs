@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
-using ASTankGame.Utility;
-using ASTankGame.Vehicles;
-using ASTankGame.Vehicles.BlockBehaviors;
+using VehicleBase.Utility;
+using VehicleBase.Vehicles;
+using VehicleBase.Vehicles.BlockBehaviors;
 using UnityEngine;
 
 public class CameraTools : MonoBehaviour

@@ -2,11 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Serialization;
-using ASTankGame.Characters.Movement;
+using VehicleBase.Characters.Movement;
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Animation
+namespace VehicleBase.Characters.Animation
 {
     public class ProceduralAnimator : MonoBehaviour
     {

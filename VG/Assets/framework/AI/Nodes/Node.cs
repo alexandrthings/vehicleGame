@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace ASTankGame.Characters.AI.Nodes
+namespace VehicleBase.Characters.AI.Nodes
 {
     [System.Serializable]
     public abstract class Node

@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Characters.ASInput;
+using VehicleBase.Characters.ASInput;
 using UnityEngine;
 
-namespace ASTankGame.Characters.AI.Nodes
+namespace VehicleBase.Characters.AI.Nodes
 {
     public abstract class ActionNode : Node
     {

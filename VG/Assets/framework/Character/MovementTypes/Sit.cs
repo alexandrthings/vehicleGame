@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using ASTankGame.Characters.Movement;
-using ASTankGame.Vehicles.BlockBehaviors;
+using VehicleBase.Characters.Movement;
+using VehicleBase.Vehicles.BlockBehaviors;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Movement
+namespace VehicleBase.Characters.Movement
 {
     public class Sit : MoveType
     {

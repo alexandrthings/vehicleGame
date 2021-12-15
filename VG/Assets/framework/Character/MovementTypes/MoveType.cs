@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.Characters.Movement
+namespace VehicleBase.Characters.Movement
 {
     /// <summary>
     /// to setup, just call base.Begin || character, rb, animator, PrevState, TimeInState exposed

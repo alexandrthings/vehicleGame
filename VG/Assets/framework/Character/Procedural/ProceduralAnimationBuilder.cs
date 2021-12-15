@@ -10,7 +10,7 @@ using UnityEditor.Animations;
 using UnityEditor.Rendering;
 using UnityEngine.Experimental.AI;
 
-namespace ASTankGame.Characters.Animation.Generation
+namespace VehicleBase.Characters.Animation.Generation
 {
     [ExecuteInEditMode]
     public class ProceduralAnimationBuilder : MonoBehaviour

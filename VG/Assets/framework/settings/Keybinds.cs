@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.Settings
+namespace VehicleBase.Settings
 {
     public class Keybinds : MonoBehaviour
     {

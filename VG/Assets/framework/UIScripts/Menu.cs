@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     /// <summary>
     /// Methods to override are OnDeactivate and Deactivate

@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
-namespace ASTankGame.UI
+namespace VehicleBase.UI
 {
     public class BlockConfigSlider : BlockConfigElement
     {
