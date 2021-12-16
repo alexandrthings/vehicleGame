@@ -5,7 +5,7 @@ using UnityEngine;
 namespace VehicleBase.Vehicles.BlockBehaviors.Weapons
 {
     /// <summary>
-    /// interface for anything that you can aim and attach weapons to, or weapons themselves
+    /// interface for anything that you can aim and attach weapons to, or weapons themselves aaaa
     /// </summary>
     public interface ITargetable
     {
