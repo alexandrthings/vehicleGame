@@ -23,12 +23,6 @@ Something I made for block-built vehicles in Unity.
 - Heliblades
 - Ammo Rack (incomplete)
 - Cannon (incomplete)
-  
-## TODO
-- [ ] Damage bug against 
-- [ ] Add different damage types
-- [ ] Fix track physics
-- [ ] Modding support
 
 ## Screenshots
 Vehicle with customized cannons   |  Mesh optimization
