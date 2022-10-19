@@ -1,11 +1,6 @@
 # Vehicle Base
-## STILL IN DEVELOPMENT
 
 Something I made for block-built vehicles in Unity. 
-Might turn this into a library that's easy to use
-(unlike this project) later. 
-
-Can run around ~75 vehicles on a normal computer comfortably.
 
 ## Features
 - Meshing optimized for small triangle count
@@ -36,9 +31,6 @@ Can run around ~75 vehicles on a normal computer comfortably.
 - [ ] Modding support
 
 ## Screenshots
-
-What I see here                                     Mesh optimization
-
 Vehicle with customized cannons   |  Mesh optimization
 :--------------------------------:|:-------------------------:
 ![](screenshots/screenshot1.png)  |  ![this is screenshot](screenshots/meshoptimization.png)
