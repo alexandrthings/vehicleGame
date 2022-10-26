@@ -1,6 +1,6 @@
 # Vehicle Base
 
-Something I made for block-built vehicles in Unity. 
+This project makes voxel vehicles in Unity and demonstrates an optimized algorithm for generating a mesh and colliders in a single pass.
 
 ## Features
 - Meshing optimized for small triangle count
